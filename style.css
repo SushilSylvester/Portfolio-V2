@@ -1651,7 +1651,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 	
 	#logo img {
 		display: block;
-		height: 30px;
+		height: 20px;
 		width: auto;
 		max-width:none;
 		-webkit-transition: opacity 0.15s ease-in-out 0s;
@@ -1668,7 +1668,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 	
 	#logo img.white-logo {
 		position:absolute;
-		top:0;
+		top:10px;
 		left:0;
 		opacity:0;
 	}
