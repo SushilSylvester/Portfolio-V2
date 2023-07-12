@@ -74,7 +74,7 @@
                         <div class="outer">
                             <div class="inner">           
                                 <ul data-breakpoint="10025" class="flexnav">
-                                    <li class="link menu-timeline"><a class="" href="#"><div class="before-span"><span data-hover="Portfolio">Portfolio</span></div></a>
+                                    <li class="link menu-timeline"><a class="active" href="#"><div class="before-span"><span data-hover="Portfolio">Portfolio</span></div></a>
                                         <ul>
                                             <li><a class="ajax-link active" href="index.html" data-type="page-transition">Showcase Carousel</a></li>
                                             <!-- <li><a class="ajax-link" href="index-showcase-grid.html" data-type="page-transition">Showcase Grid</a></li>
@@ -86,7 +86,7 @@
                                     </li>
                                     <li class="link menu-timeline"><a class="ajax-link" data-type="page-transition" href="about.html"><div class="before-span"><span data-hover="About">About</span></div></a></li>
                                     <li class="link menu-timeline"><a class="ajax-link" data-type="page-transition" href="contact.html"><div class="before-span"><span data-hover="Contact">Contact</span></div></a></li>
-                                    <li class="link"><a class="" data-type="" href="contact.html"><span><i class="fab fa-linkedin"></i></span></a></li>
+                                    <li class="link"><a class="ajax-link" data-type="page-transition" href="google.com"><i class="fab fa-linkedin"></i></a></li>
                                     <!-- <li class="link menu-timeline"><a class="" href="#"><div class="before-span"><span data-hover="More">More</span></div></a>
                                         <ul>
                                             <li><a class="ajax-link" href="typography.html" data-type="page-transition">Typography</a></li>                                         
@@ -133,20 +133,19 @@
                     </div>                                    
                 </div>
             </div>  -->
-            <div id="hero" class="has-image">
-                <div id="hero-styles">
-                    <div id="hero-caption" class="content-max-width text-align-center parallax-scroll-caption">
-                        <div class="inner">   
+            <div id="hero" class="">
+                <div id="hero-styles" style="height: 100vh;">
+                    <div id="hero-caption" class="content-max-width  parallax-scroll-caption">
+                        <div class="inner" style="position:relative;">   
                             <!-- <h1 class="hero-title caption-timeline"><span>WorkScape</span></h1>
                             <div class="hero-subtitle caption-timeline"><span>UX Design</span></div> -->
-                            <div class="hero-text">
-                                <span>Captivated by design and technology, I'm a User Experience Designer dedicated to crafting meaningful aesthetics. Proficient in web and product design, photography, video, design research, and creative coding, I create seamless and captivating user experiences.</span>
+                            <div class="hero-text" style="position: absolute; bottom:0; left:0; text-align:left;">
+                                <span style="display: block;">Captivated by design and technology, I'm a User Experience Designer dedicated to crafting meaningful aesthetics. Proficient in web and product design, photography, video, design research, and creative coding, I create seamless and captivating user experiences.</span>
                             </div>
                         </div>
                     </div>
-                    <div id="hero-description" class=" text-align-center">
-                        
-                    </div>
+                    <!-- <div id="hero-description" class=" text-align-center">   
+                    </div> -->
                     <!-- <div id="hero-footer">
                         <div class="hero-footer-left">
                             <div class="button-wrap right">
@@ -357,8 +356,7 @@
                                     </div>
                                       
                                     <div class="progress-info fadeout-element">
-                                      	<div class="progress-info-fill">Portfolio</div>
-                                        <div class="progress-info-fill-2">Portfolio</div>
+                                      	<div class="progress-info-fill">Scroll or drag</div>
                                     </div>
                                     
                                     
