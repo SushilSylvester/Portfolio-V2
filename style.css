@@ -1487,7 +1487,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 		position: fixed;
 		top: 0; 
 		bottom: 0;
-		background: #000;
+		background: #0C0C0C;
 		z-index : 1800;
 		text-align:center;
 	}
