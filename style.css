@@ -1651,7 +1651,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 	
 	#logo img {
 		display: block;
-		height: 20px;
+		height: 50px;
 		width: auto;
 		max-width:none;
 		-webkit-transition: opacity 0.15s ease-in-out 0s;
@@ -1841,7 +1841,8 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 		}
 		
 		.light-content .classic-menu .flexnav li > a::after, .classic-menu.white-header .flexnav li > a::after {
-			background: #fff;
+			/* background: #fff; */
+			background: #BEEFF6;
 		}
 		
 		.light-content  .classic-menu.white-header .flexnav li > a::after {
