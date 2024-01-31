@@ -702,7 +702,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 		line-height: 26px;
 		margin-bottom: 25px;
 		color:#222;
-		font-family: 'Plein', sans-serif;
+		font-family: ''Plein-Regular', sans-serif;
 	}
 	
 	.light-content p, .dark-section p{
