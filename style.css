@@ -1753,7 +1753,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 			height: 60px;
 			margin: 10px 0;
 			background-color:transparent!important;
-			mix-blend-mode: difference;
+
 		}
 		
 		.classic-menu .flexnav {
