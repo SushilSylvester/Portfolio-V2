@@ -124,6 +124,10 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 		padding: 0;
 		vertical-align: baseline;
 	}
+
+	h1,h2,h3,h4,h5,h6{
+		font-family: Chillax-Medium;
+	}
 	
 	article,
 	aside,
@@ -695,7 +699,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 		line-height: 26px;
 		margin-bottom: 25px;
 		color:#222;
-		font-family: 'basis_grotesque_proregular', sans-serif;
+		font-family: 'Plein', sans-serif;
 	}
 	
 	.light-content p, .dark-section p{
