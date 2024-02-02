@@ -1780,7 +1780,7 @@ Function Shortcodes
 		$("#share").jsSocials({
             showLabel: false,
     		showCount: false,
-    		shares: ["facebook", "twitter", "pinterest"]
+    		shares: ["facebook", "twitter", "pinterest", "instagram"]
         });
 		
 		$('.jssocials-share').wrap( "<div class='parallax-wrap'><div class='parallax-element'></div></div>" );
