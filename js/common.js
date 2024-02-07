@@ -880,7 +880,7 @@ Function Scroll Effects
 		counter.forEach(function(countNumber) {
 			gsap.fromTo(countNumber, {innerText: countNumber.innerText}, {innerText: function() {return Math.floor(parseFloat(countNumber.getAttribute('data-target')));},
 				duration: 1,
-				snap: { innerText: 10 }, 
+				snap: { innerText: 1 }, 
 				scrollTrigger: {
 					trigger: countNumber,
 					start: "top 90%", 
