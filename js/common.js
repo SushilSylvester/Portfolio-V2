@@ -205,7 +205,20 @@ Function Scroll Effects
 		});	
 		
 		
+		$('.scroll-down, .hero-arrow.link').on('click', function() {
+			// Get the position of the bottom div relative to the viewport
+			var bottomPosition = $("#bottom-div").offset().top - $(window).scrollTop();
 			
+			if ($("body").hasClass("smooth-scroll")) {
+				gsap.to(scrollbar, {duration: 1.5, scrollTop: bottomPosition, ease: Power4.easeInOut});
+				gsap.to('#ball', {duration: 0.3, borderWidth: '4px', scale: 0.5, borderColor: '#999999', delay: 0.15});
+			} else {
+				$("html,body").animate({scrollTop: bottomPosition}, 800);
+				gsap.to('#ball', {duration: 0.3, borderWidth: '4px', scale: 0.5, borderColor: '#999999', delay: 0.15});
+			}
+		});
+		
+		
 	
 				
 		// Zoom Gallery	
