@@ -278,7 +278,7 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 	}
 	
 	blockquote::before {
-		content: "\275D";
+		content: "\007C";
 		position: absolute;
 		left: 0;
 		top: 5px;
