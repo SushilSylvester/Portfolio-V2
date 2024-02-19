@@ -84,7 +84,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 		height:100%;
 		width:100%;
 		color:#1E1E1E;
-		background-color:#fff;
+		background-color:#FAFAFA;
 		user-select: none; /* supported by Chrome and Opera */
 		-webkit-user-select: none; /* Safari */
 		-khtml-user-select: none; /* Konqueror HTML */
@@ -167,7 +167,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 	
 	.light-content b, .light-content strong, .dark-section b, .dark-section strong {
 		font-weight: 600;
-		color:#fff;
+		color:#FAFAFA;
 	}
 	
 	.light-content .light-section b, .light-content .light-section strong {
@@ -198,7 +198,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 	
 	.light-content .light-section mark, .light-content .light-section ins {
 		background: none repeat scroll 0 0 #111;
-		color:#fff;
+		color:#FAFAFA;
 	}
 	
 	code,
@@ -488,7 +488,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 	
 	thead, .light-content .light-section thead {
 		background-color:rgba(0,0,0,1);
-		color:#fff;
+		color:#FAFAFA;
 	}
 	
 	.light-content thead, .dark-section thead {
@@ -496,7 +496,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 	}
 	
 	thead tr, .light-content .light-section thead tr {
-		color:#fff;
+		color:#FAFAFA;
 	}
 	
 	.light-content thead tr, .dark-section thead tr {
@@ -588,7 +588,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 	
 	::selection {
 		background: #000;
-		color: #fff;
+		color: #FAFAFA;
 		text-shadow: none;
 	}
 	
@@ -690,7 +690,7 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 	}
 	
 	.light-content h1, .light-content h2, .light-content h3, .light-content h4, .light-content h5, .light-content h6, .dark-section h1, .dark-section h2, .dark-section h3, .dark-section h4, .dark-section h5, .dark-section h6 {
-		color: #fff;
+		color: #FAFAFA;
 	}
 	
 	.light-content .light-section h1, .light-content .light-section h2, .light-content .light-section h3, .light-content .light-section h4, .light-content .light-section h5, .light-content .light-section h6 {
