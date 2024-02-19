@@ -53,8 +53,8 @@ src:    url('../fonts/Chillax-Medium.ttf') format('truetype');
   }
 
 @font-face {
-font-family: 'Plein-Bold';
-src:    url('../fonts/Plein-Bold.ttf') format('truetype');
+font-family: 'Plein-Medium';
+src:    url('../fonts/Plein-Medium.ttf') format('truetype');
         font-weight: 700;
         font-display: swap;
         font-style: normal;
@@ -161,7 +161,8 @@ src:    url('../fonts/Plein-Bold.ttf') format('truetype');
 	
 	b,
 	strong {
-		font-weight: 600;
+		font-family: 'Plein-Medium', sans-serif;
+		font-weight: 700;
 		color:#000;
 	}
 	
