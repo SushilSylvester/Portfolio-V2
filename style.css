@@ -37,8 +37,8 @@ Primary use:	Showcase Portfolio
   }
 
 @font-face {
-font-family: 'Chillax-Medium';
-src:    url('../fonts/Chillax-Medium.ttf') format('truetype');
+	font-family: 'Chillax-Medium';
+	src:    url('../fonts/Chillax-Medium.ttf') format('truetype');
         font-weight: 500;
         font-display: swap;
         font-style: normal;
@@ -538,6 +538,34 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 	del {
 		color: #767676;
 	}
+
+
+	.playfair-display-italic-semibold {
+	font-family: "Playfair Display", serif;
+	font-optical-sizing: auto;
+	font-weight: 600;
+	font-style: italic;
+	}
+
+  .playfair-display-italic-bold {
+	font-family: "Playfair Display", serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: italic;
+	}
+	
+	.poppins-regular {
+		font-family: "Poppins", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+	}
+	  
+	.poppins-bold {
+		font-family: "Poppins", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+	
 
 	.horizontal-line {
 		padding-bottom:20px;
@@ -3856,6 +3884,7 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 	#main-page-content .button-text, #hero .button-text {
 		display:block;
 	}
+
 }
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
