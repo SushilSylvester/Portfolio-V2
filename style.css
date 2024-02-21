@@ -538,6 +538,24 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 	del {
 		color: #767676;
 	}
+
+	.horizontal-line {
+		padding-bottom:20px;
+		position: relative;
+		width: 100%; /* Ensures the line spans the entire width of the container */
+	}
+	
+	.horizontal-line::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%; /* Adjust as needed */
+		height: 1px; /* Adjust thickness as needed */
+		background-color: #000; /* Adjust color as needed */
+		
+	}
+	
 	
 	hr {
 		border: 0;
