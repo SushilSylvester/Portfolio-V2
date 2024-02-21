@@ -12,21 +12,6 @@ Primary use:	Showcase Portfolio
 @import url("css/shortcodes.css");
 @import url("css/assets.css");
 
-@font-face {
-    font-family: 'basis_grotesque_proregular';
-    src: url('webfonts/fontsfree-net-basisgrotesquepro-regular-webfont.woff2') format('woff2'),
-         url('webfonts/fontsfree-net-basisgrotesquepro-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family:'basis_grotesque_promedium';
-    src: url('webfonts/fontsfree-net-basisgrotesquepro-medium-webfont.woff2') format('woff2'),
-         url('webfonts/fontsfree-net-basisgrotesquepro-medium-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
 
 @font-face {
     font-family: 'Chillax-Bold';
@@ -547,7 +532,7 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 	font-style: italic;
 	}
 
-  .playfair-display-italic-bold {
+    .playfair-display-italic-bold {
 	font-family: "Playfair Display", serif;
 	font-optical-sizing: auto;
 	font-weight: 700;
@@ -597,7 +582,19 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 		-webkit-transition: translateY(0px)!important;
 		transform: translateY(0px)!important;
 	}
+
+	.gradient-div-top {
+		height: 5px;
+		width: 100%;
+		background: linear-gradient(to bottom, #fff, #4B32D4);
+	}
 	
+	.gradient-div-bottom {
+		height: 5px;
+		width: 100%;
+		background: linear-gradient(to top, #fff, #4B32D4);
+	}
+
 	hr.animated-line {
 		height:1px;		
 		padding-top:20px;
