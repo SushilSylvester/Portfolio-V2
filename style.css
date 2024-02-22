@@ -569,6 +569,23 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 		
 	}
 
+	.horizontal-line-light {
+		padding-bottom:20px;
+		position: relative;
+		width: 100%; /* Ensures the line spans the entire width of the container */
+	}
+	
+	.horizontal-line-light::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 50%; /* Adjust as needed */
+		height: 1px; /* Adjust thickness as needed */
+		background-color: #fff; /* Adjust color as needed */
+		
+	}
+
 	
 	
 	hr {
@@ -747,11 +764,11 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 		line-height: 26px;
 		margin-bottom: 25px;
 		color:#1E1E1E;
-		font-family: ''Plein-Regular', sans-serif;
+		font-family: ''Plein-Regular'', sans-serif;
 	}
 	
 	.light-content p, .dark-section p{
-		color:#aaa;
+		color:#F1F1F1;
 	}
 	
 	.light-content .light-section p {
