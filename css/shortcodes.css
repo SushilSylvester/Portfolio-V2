@@ -1051,8 +1051,8 @@
 	}
 	
 	.light-content .has-mask-fill > span, .dark-section .has-mask-fill > span {
-		-webkit-text-fill-color: rgba(255,255,255,0.1);
-		background-image: linear-gradient(#fff, #fff);;
+		-webkit-text-fill-color: rgba(241, 241, 241, 0.1);
+		background-image: linear-gradient(#f1f1f1, #f1f1f1);;
 	}
 	
 	.light-content .light-section .has-mask-fill > span {
