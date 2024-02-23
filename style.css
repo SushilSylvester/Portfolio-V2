@@ -364,7 +364,7 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 	}
 	
 	.light-content li, .dark-section li {
-		color: #ccc;
+		color: #f1f1f1;
 	}
 	
 	.light-content .light-section li {
