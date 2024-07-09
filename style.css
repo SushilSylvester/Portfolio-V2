@@ -587,6 +587,23 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 		
 	}
 
+	.horizontal-line-light-full {
+		padding-bottom:20px;
+		position: relative;
+		width: 100%; /* Ensures the line spans the entire width of the container */
+	}
+	
+	.horizontal-line-light-full::before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%; /* Adjust as needed */
+		height: 1px; /* Adjust thickness as needed */
+		background-color: #fff; /* Adjust color as needed */
+		
+	}
+
 	
 	
 	hr {
@@ -3791,7 +3808,8 @@ src:    url('../fonts/Plein-Medium.ttf') format('truetype');
 @media only screen and (max-width: 479px) {	
 	
 	.row_padding_top {
-		padding-top:12vw;
+		/* padding-top:12vw; */
+		padding-top:30vw;
 	}
 	
 	.row_padding_bottom {
