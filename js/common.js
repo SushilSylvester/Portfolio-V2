@@ -871,16 +871,21 @@ Function Scroll Effects
 			});
 		});
 		
-		var counter = gsap.utils.toArray('.number-counter');		
-		counter.forEach(function(countNumber) {
-			gsap.fromTo(countNumber, {innerText: countNumber.innerText}, {innerText: function() {return Math.floor(parseFloat(countNumber.getAttribute('data-target')));},
-				duration: 1,
-				snap: { innerText: 1 }, 
-				scrollTrigger: {
-					trigger: countNumber,
-					start: "top 90%", 
-				}
-			});
+		gsap.utils.toArray('.number-counter').forEach((countNumber, index) => {
+		gsap.fromTo(countNumber,
+			{ innerText: 0 }, // start from 0 for clarity
+			{
+			innerText: () => Math.floor(parseFloat(countNumber.getAttribute('data-target'))),
+			duration: 1,
+			ease: "power1.out",
+			snap: { innerText: 1 },
+			delay: index * 0.2, // staggered appearance
+			scrollTrigger: {
+				trigger: countNumber,
+				start: "top 90%",
+			}
+			}
+		);
 		});
 		
 		var titleMovingForward = gsap.utils.toArray('.title-moving-forward');			
